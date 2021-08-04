@@ -40,32 +40,3 @@ while (producto!=='fin'){
     producto=prompt('Ingrese nombre del Producto: ');
 }
 muestra(total);
-
-
-
-
-//actividad tienda
-
-
-
-// class Tienda {
-//     constructor(texto) {
-//         this.nombre= texto.nombre;
-//         this.direccion= texto.direccion;
-//         this.propietario= texto.propietario;
-//         this.rubro= texto.rubro;   
-//     }
-// }
-
-
-// const tiendas = {};
-
-// for(i=0;i<=2;i++){
-//     const nombre=prompt('Ingrese nombre de la Tienda: ');
-//     const direccion=prompt('Ingrese direccion de la Tienda: ');
-//     const propietario=prompt('Ingrese propietario de la Tienda: ');
-//     const rubro=prompt('Ingrese rubro de la Tienda: ');
-//     tiendas[i] = new Tienda({nombre: nombre, direccion: direccion, propietario: propietario, rubro:rubro});
-// }
-
-// console.log(tiendas);
