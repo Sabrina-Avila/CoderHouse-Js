@@ -1,0 +1,133 @@
+.footer {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../imagen/img_principal.jpg");
+    background-size: cover;
+
+    .footer__box {
+        margin-top: 40px;
+        margin-bottom: 50px;
+        color: rgb(206, 206, 206);
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+
+        .footer__box--social {
+            color: rgb(206, 206, 206);
+            text-decoration: none;
+            letter-spacing: 5px;
+            font-weight: bold;
+            font-size: 14px;
+            transition: 0.2s;
+
+            &:hover {
+                color: #fff;
+                transition: 0.2s;
+                text-shadow: 1px 1px 20px rgba(0, 0, 0, 1);
+                text-decoration: none
+            }
+        }
+    }
+
+    .footer__line {
+        height: 2px;
+        background-color: rgb(206, 206, 206);
+        width: 100%;
+    }
+}
+
+.footer #button {
+    width: 35px;
+    height: 35px;
+    // border: #727172 12px solid;
+    // border-radius: 35px;
+    margin: 0 auto;
+    position: relative;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.footer #button:hover {
+    width: 35px;
+    height: 35px;
+    border: #f5e2c5 12px solid;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+    position: relative;
+}
+
+.footer {
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    height: 2em;
+    overflow: hidden;
+    margin: 0 auto;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+    z-index: 999;
+}
+
+.footer:hover {
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+
+    @media (min-width: 360px) {
+        height: 550px;
+    }
+
+    @media (min-width: 544px) {
+        height: 500px;
+    }
+
+    @media (min-width: 768px) {
+        height: 250px;
+    }
+}
+
+.footer #container {
+    margin-top: 5px;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    background: #f5e2c5;
+}
+
+.footer .name {
+    font-family: 'Helvetica';
+    font-size: 10px;
+    color: black;
+}
+
+.footer .about {
+    line-height: 20px;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+}
+
+
+
+.footer .social {
+    text-decoration: none;
+    font-size: 40px;
+    color: black;
+    text-align: center;
+}
+
+footer {
+    height: 100px;
+}
