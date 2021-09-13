@@ -1,0 +1,101 @@
+{
+    "data": [
+        {
+            "id": 0,
+            "name": "Alfajores",
+            "availability": 10,
+            "description": "Alfajores Surtidos",
+            "image": "alf01.jpg",
+            "price": 400
+        },
+        {
+            "id": 1,
+            "name": "Brownies",
+            "availability": 100,
+            "description": "Brownies Deliciosos",
+            "image": "Brownie02.jpg",
+            "price": 80
+        },
+        {
+            "id": 2,
+            "name": "Cookies",
+            "availability": 300,
+            "description": "Cookies Surtidas, caja de 18 u.",
+            "image": "cookie.png",
+            "price": 150
+        },
+        {
+            "id": 3,
+            "name": "Cheesecake",
+            "availability": 30,
+            "description": "Torta Cheesecake",
+            "image": "chesk.jpg",
+            "price": 2500
+        },
+        {
+            "id": 4,
+            "name": "Lemon Pie",
+            "availability": 3,
+            "description": "'Tarta Lemon Pie",
+            "image": "Tartas.jpg",
+            "price": 2000
+        },
+        {
+            "id": 5,
+            "name": "Tarta de Frutilla",
+            "availability": 5,
+            "description": "Tarta de Frutilla rellena con crema Pastelera",
+            "image": "Tfrutillas.jpg",
+            "price": 1500
+        },
+        {
+            "id": 6,
+            "name": "Alfajores de Maicena",
+            "availability": 100,
+            "description": "Alfajores de Maicena, caja por 12",
+            "image": "maicena.jpeg",
+            "price": 300
+        },
+        {
+            "id": 7,
+            "name": "Macarons",
+            "availability": 200,
+            "description": "Caja de macarons por 6 gusto a elección",
+            "image": "Macarons.jpg",
+            "price": 500
+        },
+        {
+            "id": 8,
+            "name": "Caja Mix",
+            "availability": 50,
+            "description": "Esta caja viene con 3 macarons con relleno de dulce de leche, 3 alfajores de tipo maicena y dos tarteletas una cheescake y otra con frutos rojos",
+            "image": "mix.jpg",
+            "price": 2000
+        },
+        {
+            "id": 9,
+            "name": "Rosca de Pascua",
+            "availability": 3,
+            "description": "Rosca de pascua (solo en epoca) rellena de crema pastelera y nutella. Deliciosa!",
+            "image": "RoscaP.jpg",
+            "price": 1500
+        },
+        {
+            "id": 10,
+            "name": "Torta",
+            "availability": 5,
+            "description": "Este tipo de torta se puede presentar de diferentes modelos, este estilo básico con un tamaño de 20 cm",
+            "image": "torta_corazon.jpeg",
+            "price": 2500
+        },
+        {
+            "id": 11,
+            "name": "Donas",
+            "availability": 3000,
+            "description": "Donas glaseadas de diferentes colores.",
+            "image": "Donas.jpg",
+            "price": 350
+        }
+    ],
+    "total": 11
+}

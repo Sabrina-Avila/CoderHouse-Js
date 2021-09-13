@@ -12,7 +12,7 @@
   background-color: transparent;
   position: sticky;
   top: 0;
-  z-index: 9999; }
+  z-index: 500; }
   .header--sticky .header__nav .navbar-toggler {
     background-color: #f4d6b9;
     border-color: #0c0c0d; }
@@ -38,6 +38,19 @@
           text-decoration: #d6a336;
           transition: opacity .5s;
           background: #0c0c0d81; }
+
+.fondo {
+  background-color: #0c0c0d81;
+  width: 100%;
+  height: 130px; }
+
+.contador {
+  color: black;
+  border-radius: 23px;
+  background-color: #f5b679;
+  font-family: 'Lucida Sans';
+  font-size: 20px;
+  text-align: center; }
 
 .titulo-base, .titulo {
   font-family: "Dancing Script";
@@ -645,7 +658,7 @@ body {
   display: inline-block;
   margin-left: 0.5em;
   color: gold;
-  width: 50%; }
+  width: 100%; }
 
 #container_tienda .product-details > p {
   font-family: 'EB Garamond', serif;

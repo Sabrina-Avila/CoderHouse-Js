@@ -1,0 +1,15 @@
+{
+    "extends": ["semistandard"],
+    "env": {
+        "browser": true,
+        "es6": true
+    },
+    "globals": {
+        "$": true
+    },
+    "rules": {
+        "space-before-function-paren": "off",
+        "comma-dangle": "off"
+    },
+    "root": true
+}
