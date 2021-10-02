@@ -8,10 +8,6 @@ const LINKS = [
     href: 'presupuesto.html',
   },
   {
-    name: 'Conoceme',
-    href: 'conoceme.html',
-  },
-  {
     name: 'Mis Productos',
     href: 'productos.html',
   },
